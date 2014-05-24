@@ -153,7 +153,7 @@
 		game_over = ()													#Evaluates if robbie has won
 		@solution_set.each do |solution|
 			if mark_count_in_square_arrays(solution, @robbie) == 3
-				board_setupz
+				board_setup
 				put_line
 				puts 'You lost... Please try harder next time. :)'
 				puts
